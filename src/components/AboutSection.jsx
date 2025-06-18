@@ -1,4 +1,4 @@
-import { Briefcase, Code, User } from "lucide-react";
+import { MonitorCog, Code, Merge, Briefcase } from "lucide-react";
 
 export const AboutSection = () => {
   return (
@@ -12,20 +12,28 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-              Passionate Web Developer & Tech Creator
+              Passionate Full Stack Developer
             </h3>
 
             <p className="text-muted-foreground">
-              With over 5 years of experience in web development, I specialize
-              in creating responsive, accessible, and performant web
-              applications using modern technologies.
+              👋 Hi, I'm Krutik Patel, a passionate Full Stack Developer with 3+
+              years of experience building web applications using technologies
+              like React.js, Vue.js, Node.js, MongoDB, and Express.js.
             </p>
 
             <p className="text-muted-foreground">
-              I'm passionate about creating elegant solutions to complex
-              problems, and I'm constantly learning new technologies and
-              techniques to stay at the forefront of the ever-evolving web
-              landscape.
+              I've worked on multiple real-world projects — from building
+              scalable dashboards and e-commerce platforms to designing secure
+              authentication systems and integrating third-party APIs.
+            </p>
+            <p className="text-muted-foreground">
+              I enjoy turning complex problems into elegant, Merge-friendly
+              solutions. Whether it's frontend design or backend logic, I love
+              every step of the development process.
+            </p>
+            <p className="text-muted-foreground">
+              I'm currently exploring new challenges in automation, AI
+              integration, and cloud deployment to level up my skills.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -50,10 +58,13 @@ export const AboutSection = () => {
                   <Code className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg"> Web Development</h4>
+                  <h4 className="font-semibold text-lg">
+                    Full-Stack Development
+                  </h4>
                   <p className="text-muted-foreground">
-                    Creating responsive websites and web applications with
-                    modern frameworks.
+                    Building scalable web applications using modern technologies
+                    like Vue.js, React.js, Nuxt.js, Next.js, Node.js,
+                    Feathersjs,MySQL and MongoDB.
                   </p>
                 </div>
               </div>
@@ -61,13 +72,15 @@ export const AboutSection = () => {
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
-                  <User className="h-6 w-6 text-primary" />
+                  <Merge className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">UI/UX Design</h4>
+                  <h4 className="font-semibold text-lg">
+                    API Integration & Automation
+                  </h4>
                   <p className="text-muted-foreground">
-                    Designing intuitive user interfaces and seamless user
-                    experiences.
+                    Connecting systems with third-party APIs and automating
+                    repetitive tasks to improve efficiency.
                   </p>
                 </div>
               </div>
@@ -79,10 +92,12 @@ export const AboutSection = () => {
                 </div>
 
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Project Management</h4>
+                  <h4 className="font-semibold text-lg">
+                    Technical Project Leadership
+                  </h4>
                   <p className="text-muted-foreground">
-                    Leading projects from conception to completion with agile
-                    methodologies.
+                    Leading cross-functional teams and delivering features on
+                    time using agile practices.
                   </p>
                 </div>
               </div>
